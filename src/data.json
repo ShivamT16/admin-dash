@@ -1,0 +1,86 @@
+{
+    "data" : [
+        {
+            "_id": "1",
+            "productName": "Smartphone X Pro",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$999.00",
+            "totalSales": "150",
+            "createdAt": "6/23/2024"
+        },
+        {
+            "_id": "2",
+            "productName": "Wireless Earbuds Ultra",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$199.00",
+            "totalSales": "300",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "3",
+            "productName": "Smart Home Hub",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$149.00",
+            "totalSales": "200",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "4",
+            "productName": "4K Ultra HD Smart TV",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$799.00",
+            "totalSales": "50",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "5",
+            "productName": "Gaming Laptop Pro",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$1299.00",
+            "totalSales": "75",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "6",
+            "productName": "VR Headset Plus",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$349.00",
+            "totalSales": "120",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "7",
+            "productName": "Smartwatch Elite",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$249.00",
+            "totalSales": "250",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "8",
+            "productName": "Bluetooth Speaker Max",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$99.00",
+            "totalSales": "400",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "9",
+            "productName": "Portable Charger Super",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$59.00",
+            "totalSales": "500",
+            "createdAt": "6/23/2024"
+        },{
+            "_id": "10",
+            "productName": "Smart Thermostat Pro",
+            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "status": "Active",
+            "price": "$199.00",
+            "totalSales": "175",
+            "createdAt": "6/23/2024"
+        }
+    ]
+}

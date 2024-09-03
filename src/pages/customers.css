@@ -1,0 +1,15 @@
+.customers-main{
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    padding: 0rem 1rem 1rem;
+    background-color: white;
+    width: 75rem;
+}
+.customer-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.customer-para{
+    color: gray;
+    margin-top: -1.5rem;
+}
