@@ -73,3 +73,12 @@ span:hover{
 .nav-icon:hover{
   color: black;
 }
+
+@media screen and (max-width: 768px){
+  .Navbar-container{
+    display: none;
+  }
+  .app{
+    margin: 0rem 1rem;
+  }
+}

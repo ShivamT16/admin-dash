@@ -15,11 +15,11 @@ export const Products = () => {
         <p className='product-para' > Manage your products and view their sales performance </p>
 
         <div className='product-nav' >
-            <p style={{marginLeft: "6rem"}} >Name</p>
-            <p style={{marginLeft: "17rem"}} >Status</p>
-            <p style={{marginLeft: "6rem"}} >Price</p>
-            <p style={{marginLeft: "5rem"}} >Total Sales</p>
-            <p style={{marginLeft: "3rem"}} >Created at</p>
+            <p className='headingName' style={{marginLeft: "6rem"}} >Name</p>
+            <p className='headingStatus' style={{marginLeft: "17rem"}} >Status</p>
+            <p className='headingPrice' style={{marginLeft: "6rem"}} >Price</p>
+            <p className='headingSales' style={{marginLeft: "5rem"}} >Total Sales</p>
+            <p className='headingCreated' style={{marginLeft: "3rem"}} >Created at</p>
         </div>
         { Data.data.length > 1 &&
             Data.data.slice(page * 5 - 5, page * 5).map((item) => 
