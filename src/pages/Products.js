@@ -6,6 +6,8 @@ import { Navbar } from './Navbar';
 
 export const Products = () => {
     const [show, setShow] = useState(false)
+    const [page, setPage] = useState(1)
+
   return (
     <div><Navbar />
     <div className='products-main' >
@@ -17,10 +19,10 @@ export const Products = () => {
             <p style={{marginLeft: "17rem"}} >Status</p>
             <p style={{marginLeft: "6rem"}} >Price</p>
             <p style={{marginLeft: "5rem"}} >Total Sales</p>
-            <p style={{marginLeft: "2.8rem"}} >Created at</p>
+            <p style={{marginLeft: "3rem"}} >Created at</p>
         </div>
-        {
-            Data.data.map((item) => 
+        { Data.data.length > 1 &&
+            Data.data.slice(page * 5 - 5, page * 5).map((item) => 
                 <div className='products-card' key={item._id} >
                     <img className='prdouct-img' src={item.productImage} alt="product img" />
                     <p className='product-name'> {item.productName} </p>
@@ -38,7 +40,14 @@ export const Products = () => {
                     }   
                     </div>
         )}
-                 
+        <div className='product-footer'>
+         <p className='footer-para'>Showing <span className='span'>{page * 5 - 4}-{page * 5}</span> of <span className='span'>{Data.data.length}</span> products </p>
+         <p>
+         { <button className='btn' onClick={() => setPage( page - 1)} disabled={ page > 1 ? false : true} > {"<"} Prev </button> }
+         { <button className='btn' onClick={() => setPage( page + 1)} disabled={  page < Math.floor(Data.data.length / 5) ? false : true} >Next {">"}</button> }
+         </p>
+         </div> 
+
     </div>
     </div>
   )

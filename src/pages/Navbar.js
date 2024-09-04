@@ -22,8 +22,8 @@ export const Navbar = () => {
       <div className='navbar-nav'>
         <NavLink style={getActiveStyle} to="/" > All </NavLink>
         <NavLink style={getActiveStyle} to="/error" > Active </NavLink>
-        <NavLink style={getActiveStyle} to="/b" > Draft </NavLink>
-        <NavLink style={getActiveStyle} to="/c" > Archived </NavLink>
+        <NavLink style={getActiveStyle} to="/errora" > Draft </NavLink>
+        <NavLink style={getActiveStyle} to="/errorb" > Archived </NavLink>
       </div>
       <div>
        <button className='export-btn' > <AiOutlineExport size="1rem" /> Export</button>

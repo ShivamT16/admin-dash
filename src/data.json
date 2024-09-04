@@ -12,7 +12,7 @@
         {
             "_id": "2",
             "productName": "Wireless Earbuds Ultra",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ21BxR2xmJEU9ZR_3iyXDmKTMo_uPu1TkjCg&s",
             "status": "Active",
             "price": "$199.00",
             "totalSales": "300",
@@ -20,7 +20,7 @@
         },{
             "_id": "3",
             "productName": "Smart Home Hub",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://www.werd.com/wp-content/uploads/2023/09/echo-hub.jpg",
             "status": "Active",
             "price": "$149.00",
             "totalSales": "200",
@@ -28,7 +28,7 @@
         },{
             "_id": "4",
             "productName": "4K Ultra HD Smart TV",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://m.media-amazon.com/images/I/71DGhNHPyeL.jpg",
             "status": "Active",
             "price": "$799.00",
             "totalSales": "50",
@@ -36,7 +36,7 @@
         },{
             "_id": "5",
             "productName": "Gaming Laptop Pro",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLK07-TO08Ffn5yLbvRSX2FUGavXMyzBStzw&s",
             "status": "Active",
             "price": "$1299.00",
             "totalSales": "75",
@@ -44,7 +44,7 @@
         },{
             "_id": "6",
             "productName": "VR Headset Plus",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS26Y9wgs10VP86KfwQ5d1hob-fqjQVtdVlzQ&s",
             "status": "Active",
             "price": "$349.00",
             "totalSales": "120",
@@ -52,7 +52,7 @@
         },{
             "_id": "7",
             "productName": "Smartwatch Elite",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpqgDk-q3GqxRxQ0I2eTGqlZxj8bO1WO23fA&s",
             "status": "Active",
             "price": "$249.00",
             "totalSales": "250",
@@ -60,7 +60,7 @@
         },{
             "_id": "8",
             "productName": "Bluetooth Speaker Max",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBXKEPX0-sh4kvonG4pkyeH9glLYudKuW5Q&s",
             "status": "Active",
             "price": "$99.00",
             "totalSales": "400",
@@ -68,7 +68,7 @@
         },{
             "_id": "9",
             "productName": "Portable Charger Super",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://img.freepik.com/free-photo/power-bank-mobile-phone_155003-4585.jpg",
             "status": "Active",
             "price": "$59.00",
             "totalSales": "500",
@@ -76,7 +76,7 @@
         },{
             "_id": "10",
             "productName": "Smart Thermostat Pro",
-            "productImage": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg",
+            "productImage": "https://cdn.thewirecutter.com/wp-content/media/2023/09/smartthermostats-2048px-2898-3x2-1.jpg",
             "status": "Active",
             "price": "$199.00",
             "totalSales": "175",

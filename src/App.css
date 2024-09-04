@@ -67,6 +67,8 @@ span:hover{
 }
 .nav-icon{
   color: grey;
+  padding: .3rem .3rem .1rem;
+  border-radius: .5rem;
 }
 .nav-icon:hover{
   color: black;

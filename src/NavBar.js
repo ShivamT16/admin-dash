@@ -9,6 +9,11 @@ import { AiOutlineLineChart } from "react-icons/ai";
 import { LuSettings } from "react-icons/lu";
 
 export const NavBar = () => {
+
+  const getActiveStyle = ({isActive}) => ({
+    backgroundColor: isActive ? "whitesmoke" : "",
+  })
+  
   return (
     <div className='Navbar-container'>
        <div className='Navbar-main'> 
@@ -17,8 +22,8 @@ export const NavBar = () => {
         </NavLink>
         <NavLink className="nav-icon" title='Dashboards' > <HiOutlineHome size="1.4rem" /> </NavLink>
         <NavLink className="nav-icon" title='Orders' > <BsCart2 size="1.4rem" /> </NavLink>
-        <NavLink className="nav-icon" to="/" title='Products' > <FiBox size="1.4rem" /> </NavLink>
-        <NavLink className="nav-icon" to="/customers" title='Customers' > <TbUsers size="1.4rem" /> </NavLink>
+        <NavLink className="nav-icon" style={getActiveStyle} to="/" title='Products' > <FiBox size="1.4rem" /> </NavLink>
+        <NavLink className="nav-icon" style={getActiveStyle} to="/customers" title='Customers' > <TbUsers size="1.4rem" /> </NavLink>
         <NavLink className="nav-icon" title='Analytics' > <AiOutlineLineChart size="1.4rem" /> </NavLink>
       </div>
         <NavLink className="nav-icon" title='Settings' > <LuSettings size="1.4rem" /> </NavLink>

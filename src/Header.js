@@ -3,7 +3,7 @@ import { HiOutlineUserCircle } from "react-icons/hi2";
 import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
-   const [show, setShow] = useState(true)
+   const [show, setShow] = useState(false)
   return (
     <div className='header-main'>
         <p>

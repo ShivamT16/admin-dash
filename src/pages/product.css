@@ -3,7 +3,6 @@
     border-radius: .5rem;
     padding: 0rem 1rem;
     background-color: white;
-    position: relative;
 }
 
 .product-heading{
@@ -20,11 +19,8 @@
     flex-wrap: wrap;
     gap: 2rem;
     font-weight: 500;
-    /* font-size: medium; */
     color: grey;
-    /* justify-content: space-b; */
     padding: 0rem 2rem;
-    /* border-bottom: 1px solid lightgray; */
 }
 .product-nav:hover{
     background-color: whitesmoke;
@@ -48,7 +44,6 @@
     border-radius: 1rem;
 }
 .product-name{
-    /* border: 1px solid blue; */
     width: 18rem;
     font-weight: 600;
 }
@@ -60,17 +55,14 @@
     margin-right: 4rem;
 }
 .product-price{
-    /* border: 1px solid blue; */
     width: 4rem;
     margin-right: 3rem;
 }
 .product-sales{
-    /* border: 1px solid blue; */
     width: 2.5rem;
     margin-right: 4rem;
 }
 .product-action{
-    /* border: 1px solid blue; */
     margin: 0rem 3rem;
     cursor: pointer;
 }
@@ -81,4 +73,27 @@
   padding: 0rem 1rem;
   position: absolute;
   margin: 9rem 0rem 0rem 65rem;
+}
+
+.btn{
+ border: none;
+ background-color: white;
+ font-weight: 600;
+ margin: 1rem 1rem;
+ cursor: pointer;
+}
+
+.product-footer{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: baseline;
+   justify-content: space-between; 
+}
+.footer-para{
+    font-size: small;
+    color: gray;
+}
+.span{
+    font-weight: 600;
+    margin: 1rem -.001rem;
 }

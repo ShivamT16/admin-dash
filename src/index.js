@@ -14,7 +14,9 @@ const appRouter = createBrowserRouter([
     children: [
     { path: "/", element: <Products /> },
     { path: "/customers", element: <Customers /> },
-    { path: "/error", element: <Error /> }
+    { path: "/error", element: <Error /> },
+    { path: "/errora", element: <Error /> },
+    { path: "/errorb", element: <Error /> }
     ],  
   }
 ])
