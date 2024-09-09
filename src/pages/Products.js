@@ -5,8 +5,12 @@ import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import { Navbar } from './Navbar';
 
 export const Products = () => {
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(null)
     const [page, setPage] = useState(1)
+
+    const handleClick = (itemId) => {
+      show === null ? setShow(itemId) : setShow(null)
+    }
 
   return (
     <div><Navbar />
@@ -30,13 +34,13 @@ export const Products = () => {
                     <p className='product-price' > {item.price} </p>
                     <p className='product-sales'> {item.totalSales} </p>
                     <p className='product-create'> {item.createdAt} </p>
-                    <p className='product-action' onClick={() => setShow(!show)} > <HiOutlineDotsHorizontal /> </p>
-                    { show &&
+                    <p className='product-action' onClick={() => handleClick(item._id)} > <HiOutlineDotsHorizontal /> </p>
+                    { show === item._id ?
                        <div className='actions'>
                        <p style={{fontWeight: "500"}} >Actions</p>
                        <p>Edit</p>
                        <p>Delete</p>
-                       </div>
+                       </div> : ""
                     }   
                     </div>
         )}
