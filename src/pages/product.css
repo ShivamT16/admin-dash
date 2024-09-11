@@ -38,11 +38,11 @@
     background-color: whitesmoke;
 }
 
-.headingName{ margin-left: "6rem" }
-.headingStatus { margin-left: "17rem" }
-.headingPrice { margin-left: "6rem" }
-.headingSales {margin-left: "5rem"}
-.headingCreated {margin-left: "3rem" } 
+.headingName{ margin-left: 6rem }
+.headingStatus { margin-left: 17rem }
+.headingPrice { margin-left: 6rem }
+.headingSales {margin-left: 5rem }
+.headingCreated {margin-left: 3rem } 
 
 .prdouct-img{
     height: 4rem;
@@ -104,7 +104,10 @@
     margin: 1rem -.001rem;
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
+    .products-main{
+        padding: 0rem 2rem;
+    }
     .prdouct-img{
         display: none;
     }
@@ -112,7 +115,6 @@
         width: 10%;
     }
     .product-status{
-        /* border: 1px solid red; */
         margin: 0rem 1rem;
     }
     .product-price{
@@ -128,13 +130,16 @@
         margin: 0rem 1rem;
     }
     .product-nav{
-        /* align-items: center; */        
+        /* align-items: center; */
         margin: 0rem;
         padding: 0rem 0rem;
     }
-    .headingName{ margin-left: -1rem}
-    .headingStatus { margin: 0rem }
+    .headingName{ margin-left: 1rem}
+    .headingStatus { margin-left: 3rem }
     .headingPrice { display: none; }
     .headingSales { display: none;}
-    .headingCreated {display: none; } 
-  }
+    .headingCreated {display: none; }
+    .actions{
+      margin: 9rem 0rem 0rem 15rem;
+    } 
+   }
